@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { addBook } from '../redux/books/booksSlice';
 import AddBookBtn from './AddBookBtn';
 
-
 function AddBook() {
   const dispatch = useDispatch();
   const [title, setTitle] = useState();
