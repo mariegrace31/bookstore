@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import { PropTypes } from 'prop-types';
 import RemoveBookBtn from './RemoveBookBtn';
@@ -23,21 +22,5 @@ Book.propTypes = {
     title: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired,
     item_id: PropTypes.string.isRequired,
-  }).isRequired,
-};
-
-Book.propTypes = {
-  book: PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    author: PropTypes.string.isRequired,
-    item_id: PropTypes.string.isRequired,
-  }).isRequired,
-};
-
-Book.propTypes = {
-  book: PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    author: PropTypes.string.isRequired,
-    id: PropTypes.number.isRequired,
   }).isRequired,
 };
