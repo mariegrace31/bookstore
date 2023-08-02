@@ -112,9 +112,8 @@ $ npm start
 ---
 <!-- Future features -->
 ## **Future features**<a name="Future-fetures"></a>
--Feature 1: Add reducers and actions.
--Feature 2: Use Redux in React components.
--Feature 3: Connect to API and styling.
+-Feature 1: Use Redux in React components.
+-Feature 2: Connect to API and styling.
 
 <!-- AUTHORS -->
 ## **Authors 👤**<a name="author"></a>:
