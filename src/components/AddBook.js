@@ -26,8 +26,8 @@ function AddBook() {
       <form onSubmit={handleSubmit}>
         <input type="text" value={title} placeholder="Book Title" onChange={handletitleChange} />
         <input type="text" value={author} placeholder="author" onChange={handleSelectChange} />
+        <AddBookBtn />
       </form>
-      <AddBookBtn />
     </>
   );
 }

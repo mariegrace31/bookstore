@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = [
@@ -9,7 +10,7 @@ const initialState = [
   },
   {
     item_id: 'item2',
-    title: 'Anna karenina',
+    title: 'Anna Karenina',
     author: 'Leo Tolstoy',
     category: 'Fiction',
   },
