@@ -1,13 +1,13 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React, { useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { addBook } from '../redux/books/booksSlice';
+import { useDispatch } from 'react-redux';
+import { addNewBook } from '../redux/books/booksSlice';
 import AddBookBtn from './AddBookBtn';
 
 function AddBook() {
   const dispatch = useDispatch();
   const [title, setTitle] = useState();
   const [author, setAuthor] = useState();
-  const length = useSelector((state) => state.books.length + 1);
 
   const handletitleChange = (e) => {
     setTitle(e.target.value);
@@ -17,10 +17,11 @@ function AddBook() {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    dispatch(addBook({
-      title, author, category: 'Fiction', item_id: `item${length}`,
+    dispatch(addNewBook({
+      title, author, category: 'Fiction', item_id: `item${Math.floor(Math.random() * 1000)}`,
     }));
   };
+
   return (
     <>
       <form onSubmit={handleSubmit}>
