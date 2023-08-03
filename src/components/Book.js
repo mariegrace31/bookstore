@@ -1,17 +1,16 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import { PropTypes } from 'prop-types';
+import RemoveBookBtn from './RemoveBookBtn';
 
 function Book({ book }) {
   return (
     <>
-      <ul>
-        <li>
-          {book.title}
-          <span>{book.author}</span>
-          <button type="submit">Delete</button>
-        </li>
-      </ul>
+      <li key={book.item_id}>
+        {book.title}
+        <span>{book.author}</span>
+        <RemoveBookBtn itemId={book.item_id} />
+        <span>{book.item_id}</span>
+      </li>
     </>
   );
 }
@@ -22,6 +21,6 @@ Book.propTypes = {
   book: PropTypes.shape({
     title: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired,
-    id: PropTypes.number.isRequired,
+    item_id: PropTypes.string.isRequired,
   }).isRequired,
 };
