@@ -1,5 +1,8 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import axios from 'axios';
+
+const url = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/dR1UgaiSAd6UKy9GLW2m/books';
 
 const initialState = [
   {
