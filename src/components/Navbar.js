@@ -13,7 +13,7 @@ function Navbar() {
     <>
       <div className="navbar-container">
         <div className="navbar">
-          <h1 className="logo">Bookstore CMS</h1>
+          <h1 className="logo Text-Style-3">Bookstore CMS</h1>
           <ul className="nav-items">
             {
         navLinks.map((navLink) => (
