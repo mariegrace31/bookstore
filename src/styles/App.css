@@ -129,18 +129,24 @@ body {
 }
 
 .book-title {
-  margin-top: 6px;
-  letter-spacing: -0.2px;
-  font-size: 1rem;
+  width: 120%;
+  height: 1.813rem;
+  margin: 0.188rem 20.188rem 0 0;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 1.375rem;
+  font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  width: 120%;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
 }
 
 .book-author {
   width: 6.688rem;
   height: 1.188rem;
   margin: 0.25rem 0 0;
+  font-family: "RobotoSlab", sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -156,9 +162,18 @@ body {
   display: flex;
   color: #4386bf;
   margin-top: 1rem;
-  gap: 8px;
+  gap: 10px;
   text-transform: capitalize;
   cursor: pointer;
+}
+
+.comment-container li {
+  font-family: "RobotoSlab", sans-serif;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
 }
 
 .comment-container li:hover {
@@ -197,14 +212,16 @@ body {
 }
 
 .comp-container h4 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: normal;
+  font-family: "Montserrat", sans-serif;
 }
 
 .complited {
   color: black;
   opacity: 0.5;
   font-size: 15px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .line {
@@ -220,9 +237,15 @@ body {
 }
 
 .current {
+  text-transform: uppercase;
+  font-family: "RobotoSlab", sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
-  text-transform: uppercase;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
   opacity: 0.5;
 }
 
@@ -231,7 +254,12 @@ body {
   font-weight: 300;
   letter-spacing: -0.4px;
   text-transform: capitalize;
-  margin: 4px auto;
+  margin: 5px auto;
+  font-family: "RobotoSlab", sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  color: #121212;
 }
 
 .update {
@@ -239,6 +267,19 @@ body {
   background-color: #0290ff;
   border-radius: 3px;
   padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  font-size: 0.813rem;
+  font-weight: 300;
+}
+
+.update-content {
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: white;
 }
 
 .add-container {
@@ -275,11 +316,33 @@ body {
   border: none;
 }
 
+.input-title::placeholder {
+  color: #c4c4c4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.15px;
+}
+
 .input-author {
   padding: 0.813rem 0.938rem 0.813rem  1rem;
   text-transform: capitalize;
   border: solid 1px #e8e8e8;
   border-radius: 4px;
+}
+
+.input-author::placeholder {
+  color: #c4c4c4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.15px;
 }
 
 .input-author:focus {
@@ -293,6 +356,13 @@ body {
   background-color: #0290ff;
   border: none;
   color: white;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
 }
 
 .add-btn:hover {

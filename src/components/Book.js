@@ -11,7 +11,7 @@ function Book({ book, itemId }) {
         <div className="book-container">
           <div className="book-descr">
             <p className="action Text-Style-9">{book.category}</p>
-            <h4 className="book-title Text-Style-5">{book.title}</h4>
+            <h4 className="book-title">{book.title}</h4>
             <span className="book-author">{book.author}</span>
             <ul className="comment-container Text-Style-8">
               <li>comments</li>
