@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Categories from './components/Categories';
 import Layout from './components/Layout';
+import './fonts/fonts.css';
 
 function App() {
   return (

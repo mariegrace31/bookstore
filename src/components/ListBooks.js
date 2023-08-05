@@ -23,8 +23,7 @@ function Books() {
     );
   }
   return (
-    <ul>
-
+    <div className="book-container">
       {
       Object.entries(bookItems).map(([itemId, books]) => (
         <div key={itemId}>
@@ -34,7 +33,8 @@ function Books() {
         </div>
       ))
 }
-    </ul>
+
+    </div>
   );
 }
 

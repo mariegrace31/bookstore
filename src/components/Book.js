@@ -1,16 +1,30 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
 import RemoveBookBtn from './RemoveBookBtn';
+import Completed from './Completed';
+import Chapter from './Chapter';
 
 function Book({ book, itemId }) {
   return (
     <>
-      <li>
-        {book.title}
-        <span>{book.author}</span>
-        <RemoveBookBtn itemId={itemId} />
-        <span>{itemId}</span>
-      </li>
+      <div className="book">
+        <div className="book-container">
+          <div className="book-descr">
+            <p className="action Text-Style-9">{book.category}</p>
+            <h4 className="book-title">{book.title}</h4>
+            <span className="book-author">{book.author}</span>
+            <ul className="comment-container Text-Style-8">
+              <li>comments</li>
+              |
+              <RemoveBookBtn itemId={itemId} />
+              |
+              <li>edit</li>
+            </ul>
+          </div>
+          <Completed />
+        </div>
+        <Chapter />
+      </div>
     </>
   );
 }
@@ -21,6 +35,7 @@ Book.propTypes = {
   book: PropTypes.shape({
     title: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired,
+    category: PropTypes.string.isRequired,
   }).isRequired,
   itemId: PropTypes.string.isRequired,
 };
