@@ -8,7 +8,7 @@ function RemoveBookBtn({ itemId }) {
   const dispatch = useDispatch();
   return (
     <>
-      <button type="submit" onClick={() => dispatch(removeBook(itemId))}>Delete</button>
+      <button type="submit" onClick={() => dispatch(removeBook(itemId))} className="btn-remove">remove</button>
 
     </>
   );
