@@ -48,7 +48,7 @@ The Bookstore is a website that display a list of books, add a book and remove a
 <!-- KEY FEATURES -->
 ### **Key Features 🏷️** <a name="key-features"></a>
 
-The bookstore app displays a list of books, allows to add and remove books.
+The bookstore app displays a list of books and allows to add and remove books.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
@@ -59,10 +59,10 @@ The bookstore app displays a list of books, allows to add and remove books.
 
 In order to run this project you need:
 
-- A Github account
+- A GitHub account
 - Node JS
 - Webpack
-- A web browser to view output e.g [Microsoft Edge](https://www.microsoft.com/en-us/edge).
+- A web browser to view output e.g. [Microsoft Edge](https://www.microsoft.com/en-us/edge).
 - An IDE e.g [Visual studio code](https://code.visualstudio.com/).
 - [A terminal](https://code.visualstudio.com/docs/terminal/basics).
 
@@ -96,7 +96,7 @@ Install all dependencies:
 ```sh
     npm install
 ```
-Run the following code to fixed possible JavaScript linter errors:
+Run the following code to fix possible JavaScript linter errors:
 ```
 npx eslint . --fix
 ```
@@ -104,16 +104,11 @@ npx eslint . --fix
 ---
 <!-- USAGE -->
 ## **Usage 📂**<a name="usage"></a>
-Open page in browser
+Open the page in the browser
 ```sh
 $ npm start
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-<!-- Future features -->
-## **Future features**<a name="Future-fetures"></a>
--Feature 1: deploy my app
 
 <!-- AUTHORS -->
 ## **Authors 👤**<a name="author"></a>:
@@ -124,11 +119,9 @@ $ npm start
 - Twitter: [@mariegracebmg](https://twitter.com/mariegracebmg)
 - LinkedIn: [Marie Grace Bahati](https://linkedin.com/in/marie-gr%C3%A2ce-bahati-546765224)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <br>
-
 ---
 <!-- CONTRIBUTING -->
 ## **Contributing 🤝**<a name="contributing"></a>
@@ -144,7 +137,7 @@ Remember, every contribution, no matter how big or small, makes a difference.
 <!-- SUPPORT -->
 ## **Show your support 🌟**<a name="support"></a>
 
-Thank you for taking the time to explore my GitHub project! Your support means a lot to ux. If you find my project valuable and would like to contribute, here are a few ways you can support me:
+Thank you for taking the time to explore my GitHub project! Your support means a lot to me. If you find my project valuable and would like to contribute, here are a few ways you can support me:
 
  - **Star the project ⭐️**: Show your appreciation by starring this GitHub repository. It helps increase visibility and lets others know that the project is well-received.
 
@@ -160,7 +153,7 @@ Thank you for taking the time to explore my GitHub project! Your support means a
 <!-- ACKNOWLEDGEMENTS -->
 ## **Acknowledgments 🙏**<a name="acknowledgements"></a>
 
-I would like to express our sincere gratitude to [Microverse](https://github.com/microverseinc), the dedicated reviewers, and collaborators. Your unwavering support, and feedbacks have played an immense role in making this journey a resounding success. Thank you for being an integral part of our achievements.
+I would like to express our sincere gratitude to [Microverse](https://github.com/microverseinc), the dedicated reviewers, and collaborators. Your unwavering support and feedback have played an immense role in making this journey a resounding success. Thank you for being an integral part of our achievements.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
