@@ -154,7 +154,7 @@ Thank you for taking the time to explore my GitHub project! Your support means a
 <!-- ACKNOWLEDGEMENTS -->
 ## **Acknowledgments 🙏**<a name="acknowledgements"></a>
 
-I would like to express our sincere gratitude to [Microverse](https://github.com/microverseinc), the dedicated reviewers, and collaborators. Your unwavering support and feedback have played an immense role in making this journey a resounding success. Thank you for being an integral part of our achievements.
+I would like to express my sincere gratitude to [Microverse](https://github.com/microverseinc), the dedicated reviewers, and collaborators. Your unwavering support and feedback have played an immense role in making this journey a resounding success. Thank you for being an integral part of our achievements.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
