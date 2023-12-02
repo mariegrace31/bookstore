@@ -74,7 +74,7 @@ In order to run this project you need:
 
 Clone this repository:<br>
 ```sh
-  git clone https://github.com/mariegrace31/bookstore.git
+git clone https://github.com/mariegrace31/bookstore.git
 
 ```
 Navigate to the folder
