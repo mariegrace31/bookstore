@@ -76,19 +76,25 @@ body {
 }
 
 .main-container {
-  margin: 5% 6%;
+  margin: 50px;
 }
 
 .book-container {
   padding: 10px;
   display: flex;
-  flex-direction: column;
+  background-color: aqua;
+  /* flex-direction: column; */
   gap: 10px;
 }
 
+/* .main-book-cont {
+  display: flex;
+  flex-direction: column;
+} */
+
 .book {
   border: 1px solid #e8e8e8;
-  background-color: #fff;
+  background-color: #df1c1c;
   height: 9rem;
   display: flex;
   justify-content: space-between;
@@ -106,30 +112,17 @@ body {
 }
 
 .book-title {
-  width: 120%;
-  height: 1.813rem;
-  margin: 0.188rem 20.188rem 0 0;
   font-family: "RobotoSlab", sans-serif;
   font-size: 1.375rem;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.2px;
   color: #121212;
 }
 
 .book-author {
-  width: 6.688rem;
-  height: 1.188rem;
-  margin: 0.25rem 0 0;
   font-family: "RobotoSlab", sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #4386bf;
 }
 
@@ -141,16 +134,11 @@ body {
   margin-top: 1rem;
   gap: 10px;
   text-transform: capitalize;
-  cursor: pointer;
 }
 
 .comment-container li {
   font-family: "RobotoSlab", sans-serif;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
 }
 
 .comment-container li:hover {
@@ -172,8 +160,8 @@ body {
 
 .main-completed {
   display: flex;
-  position: absolute;
-  margin: 5% 40%;
+  /* position: absolute; */
+  /* margin: 15% 40%; */
 }
 
 .oval {
