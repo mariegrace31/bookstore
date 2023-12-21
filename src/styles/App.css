@@ -12,33 +12,27 @@ body {
   background-color: #faf9f9;
 }
 
-.navbar-container {
+.navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 4.5rem;
   background-color: #fff;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
   border-bottom: 1px solid #e8e8e8;
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
-  margin: auto 4%;
-}
-
 .nav-items {
-  position: absolute;
   list-style: none;
-  margin: auto 30%;
   display: flex;
-  align-items: center;
+  gap: 45px;
+  position: absolute;
+  left: 40%;
 }
 
 .nav-link {
   text-decoration: none;
   color: #121212;
-  padding: 10px;
   font-size: 1.2rem;
 }
 
@@ -47,31 +41,15 @@ body {
 }
 
 .nav:nth-child(2) {
-  width: 6.563rem;
-  height: 1rem;
-  margin: 1.125rem 41.5rem 0.688rem 2.563rem;
   opacity: 0.5;
   font-family: "Montserrat", sans-serif;
   font-size: 0.813rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 1.9px;
   color: #121212;
 }
 
 .nav:nth-child(1) {
-  width: 3.688rem;
-  height: 1rem;
-  margin: 1.125rem 2.563rem 0.688rem 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.813rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 1.9px;
   color: #121212;
 }
 
@@ -84,7 +62,6 @@ body {
 .logo {
   font-weight: bold;
   color: #0290ff;
-  font-stretch: normal;
 }
 
 .user-icon {
@@ -375,4 +352,8 @@ body {
 .line-2 {
   border: 1px solid #e8e8e8;
   margin: 20px 8px;
+}
+
+@media (max-width: 768px) {
+
 }
