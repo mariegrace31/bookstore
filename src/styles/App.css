@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #faf9f9;
+  background-color: #eeeded;
 }
 
 .navbar {
@@ -34,6 +34,7 @@ body {
   text-decoration: none;
   color: #121212;
   font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .nav {
@@ -42,21 +43,11 @@ body {
 
 .nav:nth-child(2) {
   opacity: 0.5;
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.813rem;
-  letter-spacing: 1.9px;
-  color: #121212;
-}
-
-.nav:nth-child(1) {
-  font-family: "Montserrat", sans-serif;
-  color: #121212;
 }
 
 .nav-link:hover {
   color: #0290ff;
   cursor: pointer;
-  transition: 0.3s;
 }
 
 .logo {
@@ -68,11 +59,6 @@ body {
   margin: auto 6%;
   color: #0290ff;
   font-size: 2rem;
-}
-
-.user-icon:hover {
-  cursor: pointer;
-  color: #5bb8ff;
 }
 
 .main-container {
@@ -108,7 +94,6 @@ body {
   font-family: "RobotoSlab", sans-serif;
   font-size: 1.375rem;
   font-weight: bold;
-  letter-spacing: -0.2px;
   color: #121212;
 }
 
@@ -123,7 +108,6 @@ body {
   list-style: none;
   font-size: 0.875rem;
   display: flex;
-  color: #4386bf;
   margin-top: 1rem;
   gap: 10px;
   text-transform: capitalize;
@@ -132,10 +116,7 @@ body {
 .comment-container li {
   font-family: "RobotoSlab", sans-serif;
   font-weight: 300;
-}
-
-.comment-container li:hover {
-  color: #5bb8ff;
+  color: #4386bf;
 }
 
 .btn-remove {
@@ -145,10 +126,6 @@ body {
   font-size: 14px;
   text-transform: capitalize;
   cursor: pointer;
-}
-
-.btn-remove:hover {
-  color: #5bb8ff;
 }
 
 .main-completed {
@@ -190,7 +167,7 @@ body {
 }
 
 .chapter-container {
-  margin-left: 40px;
+  padding-left: 20px;
 }
 
 .current {
@@ -205,9 +182,7 @@ body {
 .chapter {
   font-size: 1rem;
   font-weight: 300;
-  letter-spacing: -0.4px;
   text-transform: capitalize;
-  margin: 5px auto;
   font-family: "RobotoSlab", sans-serif;
   color: #121212;
 }
@@ -217,15 +192,13 @@ body {
   background-color: #0290ff;
   border-radius: 3px;
   padding: 10px;
-  font-size: 0.813rem;
-  font-weight: 300;
+  text-align: center;
 }
 
 .update-content {
   font-family: "RobotoSlab", sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
-  letter-spacing: 0.5px;
   color: white;
 }
 
@@ -238,7 +211,6 @@ body {
   color: #888;
   font-size: 1.25rem;
   font-weight: bold;
-  letter-spacing: -0.18px;
   padding: 8px;
 }
 
@@ -252,17 +224,10 @@ body {
   border-radius: 4px;
 }
 
-.input-title:focus {
-  outline: 1px solid #0290ff;
-  border-radius: 3px;
-  border: none;
-}
-
 .input-title::placeholder {
   color: #c4c4c4;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  letter-spacing: -0.15px;
 }
 
 .input-author {
@@ -277,12 +242,6 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   letter-spacing: -0.15px;
-}
-
-.input-author:focus {
-  outline: 1px solid #0290ff;
-  border-radius: 3px;
-  border: none;
 }
 
 .add-btn {
@@ -308,5 +267,69 @@ body {
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    padding: 15px;
+  }
 
+  .nav-items {
+    gap: 25px;
+    left: 50%;
+  }
+
+  .logo.Text-Style-3 {
+    font-size: 20px;
+  }
+
+  .nav-link {
+    font-size: 17px;
+  }
+
+  .main-container {
+    margin: 10px;
+  }
+
+  .book-container {
+    align-items: center;
+  }
+
+  .comment-container {
+    font-size: 0.75rem;
+    gap: 3px;
+  }
+
+  .oval {
+    width: 25%;
+  }
+
+  .comp-container h4 {
+    font-size: 20px;
+  }
+
+  .complited {
+    font-size: 12px;
+  }
+
+  .line {
+    height: 8rem;
+  }
+
+  .chapter,
+  .update-content {
+    font-size: 12px;
+  }
+
+  .form input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-title,
+  .input-author {
+    padding: 15px;
+    width: 50%;
+  }
+
+  .add-btn {
+    margin-left: 5px;
+  }
 }
