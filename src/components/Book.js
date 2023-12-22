@@ -7,23 +7,21 @@ import Chapter from './Chapter';
 function Book({ book, itemId }) {
   return (
     <>
-      <div className="main-book-cont">
-        <div className="book">
-          <div className="book-container">
-            <div className="book-descr">
-              <p className="action Text-Style-9">{book.category}</p>
-              <h4 className="book-title">{book.title}</h4>
-              <span className="book-author">{book.author}</span>
-              <ul className="comment-container Text-Style-8">
-                <li>comments</li>
-                |
-                <RemoveBookBtn itemId={itemId} />
-                |
-                <li>edit</li>
-              </ul>
-            </div>
-            <Completed />
+      <div className="book">
+        <div className="book-container">
+          <div className="book-descr">
+            <p className="action Text-Style-9">{book.category}</p>
+            <h4 className="book-title">{book.title}</h4>
+            <span className="book-author">{book.author}</span>
+            <ul className="comment-container Text-Style-8">
+              <li>comments</li>
+              |
+              <RemoveBookBtn itemId={itemId} />
+              |
+              <li>edit</li>
+            </ul>
           </div>
+          <Completed />
           <Chapter />
         </div>
       </div>

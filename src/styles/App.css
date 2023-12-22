@@ -18,7 +18,7 @@ body {
   background-color: #fff;
   align-items: center;
   width: 100%;
-  padding: 15px;
+  padding: 25px;
   border-bottom: 1px solid #e8e8e8;
 }
 
@@ -82,27 +82,20 @@ body {
 .book-container {
   padding: 10px;
   display: flex;
-  background-color: aqua;
-  /* flex-direction: column; */
+  width: 98%;
+  justify-content: space-between;
+  background-color: #fff;
   gap: 10px;
 }
 
-/* .main-book-cont {
+.books-container {
   display: flex;
   flex-direction: column;
-} */
-
-.book {
-  border: 1px solid #e8e8e8;
-  background-color: #df1c1c;
-  height: 9rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  gap: 20px;
 }
 
 .book-descr {
-  margin: 25px 3%;
+  padding: 10px;
 }
 
 .action {
@@ -160,8 +153,7 @@ body {
 
 .main-completed {
   display: flex;
-  /* position: absolute; */
-  /* margin: 15% 40%; */
+  align-items: center;
 }
 
 .oval {
@@ -206,10 +198,6 @@ body {
   font-family: "RobotoSlab", sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #121212;
   opacity: 0.5;
 }
@@ -221,17 +209,14 @@ body {
   text-transform: capitalize;
   margin: 5px auto;
   font-family: "RobotoSlab", sans-serif;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   color: #121212;
 }
 
 .update {
-  margin: 20px 0;
+  margin: 15px 0;
   background-color: #0290ff;
   border-radius: 3px;
-  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  padding: 10px;
   font-size: 0.813rem;
   font-weight: 300;
 }
@@ -240,9 +225,6 @@ body {
   font-family: "RobotoSlab", sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 0.5px;
   color: white;
 }
@@ -254,19 +236,14 @@ body {
 
 .addbook-heading {
   color: #888;
-  width: 12.875rem;
-  height: 1.5rem;
-  margin: 1.813rem 32.75rem 1.188rem 0;
   font-size: 1.25rem;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.18px;
+  padding: 8px;
 }
 
 .form input {
-  margin: 1.188rem 2.125rem 0 0;
+  margin: 7px;
 }
 
 .input-title {
@@ -285,10 +262,6 @@ body {
   color: #c4c4c4;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.15px;
 }
 
@@ -303,10 +276,6 @@ body {
   color: #c4c4c4;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.15px;
 }
 
@@ -317,17 +286,13 @@ body {
 }
 
 .add-btn {
-  padding: 0.813rem 1.938rem 0.813rem 1.9rem;
+  padding: 12px;
   background-color: #0290ff;
   border: none;
   color: white;
   font-family: "RobotoSlab", sans-serif;
   font-size: 0.813rem;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.5px;
+  border-radius: 5px;
 }
 
 .add-btn:hover {

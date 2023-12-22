@@ -23,7 +23,7 @@ function Books() {
     );
   }
   return (
-    <div className="book-container">
+    <div className="books-container">
       {
       Object.entries(bookItems).map(([itemId, books]) => (
         <div key={itemId}>
