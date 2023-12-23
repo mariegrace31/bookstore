@@ -3,7 +3,7 @@
 <div align="center">
 
 #  **Bookstore**
-The Bookstore is a website that display a list of books, add a book and remove a selected book.
+The Bookstore is a website that displays a list of books, adds a book, and removes a selected book.
 ---
   <br/>
   <br/>
@@ -13,7 +13,7 @@ The Bookstore is a website that display a list of books, add a book and remove a
 <!-- TABLE OF CONTENTS -->
 ## <b>Table of Contents 📗
 - [**Bookstore**](#bookstore)
-  - [The Bookstore is a website that display a list of books, add a book and remove a selected book.](#the-bookstore-is-a-website-that-display-a-list-of-books-add-a-book-and-remove-a-selected-book)
+  - [The Bookstore is a website that displays a list of books, adds a book, and removes a selected book.](#the-bookstore-is-a-website-that-display-a-list-of-books-add-a-book-and-remove-a-selected-book)
   - [Table of Contents 📗](#table-of-contents-)
   - [**Built With 🛠**](#built-with-)
     - [**Key Features 🏷️** ](#key-features-️-)
@@ -57,7 +57,7 @@ The bookstore app displays a list of books and allows to add and remove books.
 <!-- PREREQUISITIES -->
 ## **Prerequisites 🧱**<a name="prerequisites"></a>
 
-In order to run this project you need:
+To run this project you need:
 
 - A GitHub account
 - Node JS
@@ -142,7 +142,7 @@ Thank you for taking the time to explore my GitHub project! Your support means a
 
  - **Star the project ⭐️**: Show your appreciation by starring this GitHub repository. It helps increase visibility and lets others know that the project is well-received.
 
- - **Fork the project 🍴 🎣**: If you're interested in making improvements or adding new features, feel free to fork the project. You can work on your own version and even submit pull requests to suggest changes.
+ - **Fork the project 🍴 🎣**: If you're interested in making improvements or adding new features, feel free to fork the project. You can work on your version and even submit pull requests to suggest changes.
 
  - **Share with others 🗺️**: Spread the word about this project. Share it on social media, mention it in relevant forums or communities, or recommend it to colleagues and friends who might find it useful.
 
